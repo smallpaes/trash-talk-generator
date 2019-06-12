@@ -1,0 +1,47 @@
+<div class="container">
+  <!--Title-->
+  <h1 class="text-center my-4">你想對誰說幹話？</h1>
+
+  <!--Profile Photos and Selection Inputs-->
+  <form action="/" method="POST">
+    <div class="row">
+      <div class="col-4">
+        <label class="text-center pb-3">
+          <div class="profile-photo-box mb-3">
+            <div class="profile-photo" id="engineer-photo"></div>
+          </div>
+          <input type="radio" name="target" class="mr-1" value="engineer" {{engineer}}>
+          工程師
+        </label>
+      </div>
+      <div class="col-4">
+        <label class="text-center pb-3">
+          <div class="profile-photo-box mb-3">
+            <div class="profile-photo" id="designer-photo"></div>
+          </div>
+          <input type="radio" name="target" class="mr-1" value="designer" {{designer}}>
+          設計師
+        </label>
+      </div>
+      <div class="col-4">
+        <label class="text-center pb-3">
+          <div class="profile-photo-box mb-3">
+            <div class="profile-photo" id="entrepreneur-photo"></div>
+          </div>
+          <input type="radio" name="target" class="mr-1" value="entrepreneur" {{entrepreneur}}>
+          創業家
+        </label>
+      </div>
+    </div>
+
+    <!--Result Display-->
+    <div class="row mt-5">
+      <div class="col-auto pl-0">
+        <button class="btn btn-outline-secondary rounded-0">產生幹話</button>
+      </div>
+      <div class="col-auto flex-grow-1 p-0 pr-3">
+        <textarea class="w-100" name="result-display" id="result-display" cols="30" rows="4">{{result}}</textarea>
+      </div>
+    </div>
+  </form>
+</div>
