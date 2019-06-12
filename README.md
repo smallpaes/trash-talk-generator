@@ -9,7 +9,7 @@ A fun web application built with Node.js and Express to generate trash talk base
 ## Features
 | Functions              | Detail                                                                     | URL   |
 | ---------------------- | -------------------------------------------------------------------------- | ----- |
-| View all professions   | Click on logo to view all the professions available                        | /     |
+| View all professions   | Click on logo to view all the professions available and clear up selection | /     |
 | Generate Trash Talk    | Select a profession and click on 產生幹話 button to generate a trash talk    | /     |
 
 ## Installation
