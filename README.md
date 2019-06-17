@@ -18,7 +18,10 @@ The following instructions will get you a copy of the project and all the settin
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/)
+- [Node.js v10.16.0](https://nodejs.org/en/download/)
+- [Express v4.17.1](https://www.npmjs.com/package/express)
+- [body-parser v1.19.0](https://www.npmjs.com/package/body-parser)
+- [Express Handlebars v3.1.0](https://www.npmjs.com/package/express-handlebars)
 
 ### Clone
 
